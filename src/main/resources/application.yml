@@ -6,5 +6,10 @@ eureka:
     fetchRegistry: false
   instance:
     hostname: ${EUREKA_HOST:localhost}
+    non-secure-port-enabled: true
+    secure-port-enabled: false
+    non-secure-port: 80
+    secure-port: 443
+    
   server:
     renewal-percent-threshold: 0.85
