@@ -7,6 +7,6 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
   instance:
-    hostname: ${EUREKA_HOST:dwi-eureka.railway.internal}
+    hostname: ${EUREKA_HOST:localhost}
   server:
     renewal-percent-threshold: 0.90
